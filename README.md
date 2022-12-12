@@ -10,4 +10,4 @@ O curso é 100% online e totalmente gratuito, feito para quem não teve acesso �
 
 O programa abre as inscrições 3 vezes ao ano. Cada turma cumpre uma jornada de 6 meses, divididos em 4 trilhas disponibilizadas na plataforma – ao todo são mais de 560 horas de conteúdo.
 
-![Se inscreva](https://www.oracle.com/br/education/oracle-next-education)
+[Se inscreva](https://app.aluracursos.com/form-one/registro/br-geral/brazil/cerrado?lang=pt_BR)
