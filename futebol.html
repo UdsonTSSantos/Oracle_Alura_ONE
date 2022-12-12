@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futebol - pontos do time</title>
+</head>
+<h1>Vamos calcular os pontos do seu time</h1>
+<p>Calculo sobre pontuação do seu time.</p>
+
+<script>
+    function pulaLinha() {
+
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    let nome = prompt("Antes de começar, me informe o seu nome por favor.");
+    let time = prompt("Agora me informe o seu time.");
+
+    let vitorias = parseInt(prompt(nome + " ,quantas vitórias tem o seu " + time + " informe aqui por favor. "));
+    let empates = parseInt(prompt(nome + " , o seu " + time + " ,possui empate? Quantos? Me informe por favor."));
+
+    mostra("Olá, " + nome);
+    mostra("Já vi que é um torcedor fanático pelo  " + time);
+    mostra(nome + " ,o seu time " + time + " ,possui , " + vitorias + " , vitórias show e também tem " + empates + " ,empates.");
+    mostra("Gostaria de saber qual é a pontuação do seu " + time + " , " + nome + " ?");
+    mostra("Então vamos lá, seu time " + time + " tem exatamente, " + (vitorias*3)+empates + " pontos.");
+    document.write("Gostou do desempenho do " + time  + nome);
+
+</script>
+
+
+</body>
+</html>

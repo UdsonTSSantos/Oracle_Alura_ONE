@@ -1,0 +1,22 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLina() {
+        document.write("<br>");
+    }
+
+    function monstra(frase) {
+        document.write(frase);
+        pulaLina();
+    }
+
+    function calculaImc(altura, peso) {
+        let imc = peso/(altura*altura);
+        return imc;
+    }
+
+    let imcCalculado = calculaImc(1.77, 75);
+    monstra(" O meu IMC é : " + imcCalculado);
+
+</script>

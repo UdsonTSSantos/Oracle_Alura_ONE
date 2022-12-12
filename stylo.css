@@ -1,0 +1,25 @@
+html {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 800px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: azure;
+    padding: 5px 20px 20px 20px;
+    border: 2p solid black;
+}
+
+h1 {
+    margin: auto;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+    color: blue;
+}
